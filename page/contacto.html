@@ -34,7 +34,7 @@
               <a class="nav-link" href="./recomendac.html">Recomendaciones</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./historia.html">Historia</a>
+              <a class="nav-link" href="./sagas.html">Sagas</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contacto</a>
@@ -46,55 +46,61 @@
   </header>
   
   <main>
-    <h1 class="h1_cont">Formulario de registro para recibir info. semanal sobre cine. Además quiero conocer tu opinión acerca de mi sitio web.</h1>
+    <h1 class="h1_cont"> Formulario de registro </h1>
+    <h2 class="h2_cont"> Contanos que te parecio el sitio web </h2>
     <form>
       <div class="div_fieldset">
 
-        <fieldset>
-          <label for="nombre">Introduce tu nombre:<input type="text" name="nombre" id="nombre" placeholder="Sylvester"></label>
-          <label for="apellido">Introduce tu apellido:<input type="text" name="apellido" id="apellido" placeholder="Stallone"></label>
-          <label for="apellido">Introduce tu email:<input type="email" name="email" id="email" placeholder="sylvester@stallone.com"></label>
-        </fieldset>
+        <div class="div_1">
+          <fieldset>
+            <label for="nombre">Introduce tu nombre:   <input type="text" name="nombre" id="nombre" placeholder="Sylvester"></label>
+            <label for="apellido">Introduce tu apellido:   <input type="text" name="apellido" id="apellido" placeholder="Stallone"></label>
+            <label for="email">Introduce tu email:   <input type="email" name="email" id="email" placeholder="sylvester@stallone.com"></label>
+          </fieldset>
 
-        <fieldset>
-          <legend>¿Te pareció interesante mi sitio web?</legend>
-          <label for="si">Si
-            <input type="radio" name="opinion" id="si">
-          </label>  
-          <label for="no">No
-            <input type="radio" name="opinion" id="no">
-          </label>
-          <label for="maso">Masomenos
-            <input type="radio" name="opinion" id="maso">
-          </label>
-        </fieldset>
-         
-        <fieldset>
-          <legend>¿Coincidís con los tops que nos brindo la IA? </legend>
-
+          <fieldset>
+            <label>Deja tu biografia
+            <textarea id="bio" name="bio" rows="3" cols="40" placeholder="Me encantan las peliculas de terror..."></textarea></label>
+          </fieldset>
+        </div>
+        
+        <div class="div_2">
+          <fieldset class="preg_1">
+            <legend>¿Te pareció interesante mi sitio web?</legend>
+            <label for="si">Si
+              <input type="radio" name="opinion" id="si">
+            </label>  
+            <label for="no">No
+              <input type="radio" name="opinion" id="no">
+            </label>
+            <label for="maso">Masomenos
+              <input type="radio" name="opinion" id="maso">
+            </label>
+          </fieldset>
           
-          <label for="opcion1">Me pareció correcto el top 10 mejores peliculas
-            <input type="checkbox" id="opcion1" name="opciones"/>
-          </label>
+          <fieldset class="pregunta_2">
+            <legend>¿Coincidís con los tops que nos brindo la IA? </legend>
 
-          <label for="opcion2">Me pareció correcto el top 10 mejores series
-            <input type="checkbox" id="opcion2" name="opciones"/>
-          </label>
+            
+            <label for="opcion1">Me pareció correcto el top 10 mejores peliculas
+              <input type="checkbox" id="opcion1" name="opciones"/>
+            </label>
 
-          <label for="opcion3">Me hubiese gustado ver otras peliculas/series en el top
-            <input type="checkbox" id="opcion3" name="opciones"/>
-          </label>
-          
-          <label for="opcion4">El desacuerdo es total
-            <input type="checkbox" id="opcion4" name="opciones"/>
-          </label>
-          
-        </fieldset>
+            <label for="opcion2">Me pareció correcto el top 10 mejores series
+              <input type="checkbox" id="opcion2" name="opciones"/>
+            </label>
 
-        <fieldset>
-          <label>Deja tu biografia
-          <textarea id="bio" name="bio" rows="3" cols="40" placeholder="Me encantan las peliculas de terror..."></textarea></label>
-        </fieldset>
+            <label for="opcion3">Me hubiese gustado ver otras peliculas/series en el top
+              <input type="checkbox" id="opcion3" name="opciones"/>
+            </label>
+            
+            <label for="opcion4">El desacuerdo es total
+              <input type="checkbox" id="opcion4" name="opciones"/>
+            </label>
+            
+          </fieldset>
+        </div>
+
 
       </div>
 
