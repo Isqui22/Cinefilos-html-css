@@ -327,7 +327,7 @@ input[type="submit"] {
     grid-template-areas: 
     "section iframe"
     "section iframe";
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 40% 60%;
     gap: 100px;
     height: 350px;
 }
