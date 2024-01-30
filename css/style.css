@@ -7,7 +7,7 @@ body:not(nav){
     color: white !important;
 }
 
-/* NAV DE BOOTSTRAP */
+/* NAV DE BOOTSTRAP*/
 .nav_clase {
     background-color: #F1B4BB;
     width: 100%;
@@ -26,6 +26,11 @@ nav a:not(.cinefilos) {
 }
 
 /* TOPS MUNDIALES */
+
+.destacados img {
+    width: 460px;
+}
+
 .botones {
   margin-top: 80px;
   margin-left: 42px;
@@ -38,10 +43,6 @@ nav a:not(.cinefilos) {
     margin-top: 25px;
     text-shadow: 2px 5px 6px rgba(0,0,0,1);
     text-align: center;
-}
-
-.destacados img {
-    width: 460px;
 }
 
 .top_peliculas {

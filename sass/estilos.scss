@@ -1,0 +1,13 @@
+// Importo los diferentes archivos
+
+@import "generales/header";
+@import "generales/footer";
+
+@import "pages/index";
+@import "pages/actores";
+@import "pages/recomendac";
+@import "pages/sagas";
+@import "pages/contacto";
+
+// Siempre el @import de mediaq es el último
+@import "generales/mediaq";
