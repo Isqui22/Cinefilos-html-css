@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cinéfilos</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- SEO y buenas prácticas -->
+    <meta name="description" content="Bienvenidos cinefilos a esta pagina de peliculas y series. Tops mundiales hechos por una Inteligencia Artificial.">
+    <meta name="keywords" content="cine, peliculas, series, sagas, top, titulos, posiciones, mundial, taquilla, imagenes">
+    <title>Cinéfilos - TOPS</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!--Animaciones-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Footer-->
     <script src="https://kit.fontawesome.com/4914ab581d.js" crossorigin="anonymous"></script>
 </head>
 
@@ -36,7 +43,7 @@
               <a class="nav-link" href="./page/sagas.html">Sagas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./page/contacto.html">Contacto</a>
+              <a class="nav-link" href="./page/formulario.html">Formulario</a>
             </li>
           </ul>
         </div>
@@ -46,138 +53,140 @@
 
   <main>
     
-    <section class="destacados">
+    <section>
       <div class="botones justify-content-md-end d-grid gap-2 d-md-flex">
         <a class="btn btn-primary" href="#info" role="button">Info</a>
         
         <a class="btn btn-primary" href="#series" role="button">Series</a>
       </div>
       <div class="texto_principal">
-        <h2 id="pelis">Mejores Películas de la Historia según una IA</h2>
+        <h1 id="pelis">Mejores Películas de la Historia según una IA</h1>
       </div>
 
         <div class="top_peliculas">
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>1</strong> Padrino (1972)</p>
             <img src="./medios/Top 10 pelis/el padrino 1.webp" alt="El Padrino imagen">
           </div>
 
-          <div>
+          <div data-aos="zoom-in"> 
             <p><strong>2</strong> Ciudadano Kane (1941)</p>
             <img src="./medios/Top 10 pelis/Ciudadano-Kane 2.jpg" alt="Ciudadano Kane imagen">
           </div>
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>3</strong> Lo que el Viento se Llevó (1939) </p>
             <img src="./medios/Top 10 pelis/Lo que el Viento se llevo 3.jpg" alt="Lo que el Viento se Llevó imagen">            
           </div>
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>4</strong> Casablanca (1942) </p>
             <img src="./medios/Top 10 pelis/Casablanca 4.jpg" alt="Casablanca imagen">
           </div>
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>5</strong> Titanic (1997) </p>
             <img src="./medios/Top 10 pelis/Titanic 6.jpg" alt="Titanic imagen">
           </div>
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>6</strong> El Señor de los Anillos 3 (2003) </p>
             <img src="./medios/Top 10 pelis/El Señor de los Anillos 5.jpg" alt="El Señor de los Anillos imagen">
           </div>
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>7</strong> Sueño de Fuga (1994) </p>
             <img src="./medios/Top 10 pelis/Sueño de fuga.webp" alt="Sueño de Fuga imagen">
           </div>
 
-          <div>
+          <div data-aos="zoom-in"> 
             <p><strong>8</strong> Forest Gump (1994) </p>
             <img src="./medios/Top 10 pelis/Forest Gump 8.jpg" alt="Forest Gump imagen">
           </div>
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>9</strong> Pulp Fiction (1994) </p>
             <img src="./medios/Top 10 pelis/Pulp Fiction 9.jpeg" alt="Pulp Fiction imagen">
           </div>
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>10</strong> E.T. (1982)</p>              
             <img src="./medios/Top 10 pelis/E.T. 10.jpg" alt="E.T. imagen">
           </div>
 
         </div> 
-        
+    </section>
+    
+    <section class="destacados_series">
         <div class="botones justify-content-md-end d-grid gap-2 d-md-flex">
           <a class="btn btn-primary" href="#info" role="button">Info</a>
           <a class="btn btn-primary" href="#pelis" role="button">Pelis</a>
         </div>
 
-        <h2 class="tit_series" id="series">Mejores Series de la Historia</h2>
+        <h1 class="tit_series" id="series">Mejores Series de la Historia</h1>
         
-        <div class="top_peliculas series">
+        <div class="top_peliculas">
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>1</strong> The Sopranos (1999-2007) </p>
             <img src="./medios/Top Series/Los Sopranos.webp" alt="Los Sopranos imagen">
           </div>
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>2</strong> Breaking Bad (2008-2013) </p>
             <img src="./medios/Top Series/Breaking Bad.jpg" alt="Breaking Bad imagen">
           </div>
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>3</strong> Game of Thrones (2011-2019) </p>
             <img src="./medios/Top Series/Juego de Tronos.webp" alt="Juego de Tronos imagen">            
           </div>
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>4</strong> Friends (1994-2004)</p>
             <img src="./medios/Top Series/Friends.jpg" alt="Friends imagen">
           </div>
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>5</strong> The Wire (2002-2008)</p>
             <img src="./medios/Top Series/The Wire.jpg" alt="The Wire imagen">
           </div>
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>6</strong> Stranger Things (2016-presente) </p>
             <img src="./medios/Top Series/Stranger Things.webp" alt="Stranger Things imagen">
           </div>
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>7</strong> Black Mirror (2011-presente) </p>
             <img src="./medios/Top Series/Black Mirror.jpg" alt="Black Mirror imagen">
           </div>
 
-          <div>
-            <p><strong>8</strong> Twilight Zone (1959-1964) </p>              
-            <img src="./medios/Top Series/Twilight Zone.png" alt="Twilight Zone imagen">
+          <div data-aos="zoom-in">
+            <p><strong>8</strong> The Simpsons (1989-presente) </p>              
+            <img src="./medios/Top Series/Los Simpson.jpg" alt="The Simpsons imagen">
           </div>
 
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>9</strong> The X-Files (1993-2018)</p>
             <img src="./medios/Top Series/The X-Files.webp" alt="The X-Files imagen">
           </div>
           
-          <div>
+          <div data-aos="zoom-in">
             <p><strong>10</strong> Shrlock (2010-presente)</p>
             <img src="./medios/Top Series/Sherlock.jpeg" alt=" Shrlock imagen">
           </div>
 
         </div>
-        
+
     </section>
-    
+
     <div class="botones justify-content-md-end d-grid gap-2 d-md-flex">
       <a class="btn btn-primary" href="#pelis" role="button">Pelis</a>
       <a class="btn btn-primary" href="#series" role="button">Series</a>
     </div>
-
+    
     <section class="informacion">
       <h2 id="info">Información</h2>
       <p>Hay que destacar la dificultad de este top, ya que el mismo se podria medir por distintas caracteristicas como: <strong> premios, recaudacion en taquilla, crítica espcializada, recepción del público, influencia cultural y legado, innovación y originalidad.</strong> Entonces se me ocurrió pedirle a una inteligencia artifical (ChatGPT) que recopile cuales son las 10 peliculas y series que en mayor medida cumplen con esas caracteristicas hasta el 2023 inclusive</p>
@@ -201,6 +210,12 @@
       </a>
     </div>
   </footer>
+
+  <!--AOS Animaciones-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
 

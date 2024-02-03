@@ -1,0 +1,59 @@
+footer {
+    .contact-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-top: 2rem;
+
+        .hablemos {
+            color: #F1B4BB;
+            padding-top: 15px;
+            padding-right: 5px;
+            font-size: 20px;
+        }
+
+        a {
+            color: #F1B4BB;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 690;
+              
+            .btn {
+                display: inline-block;
+                padding: 1rem 2rem;
+                border-radius: 2px;
+            }
+        }
+        
+    
+        .button {
+            transition: transform 0.3s ease-out !important;
+            &:hover {
+                transform: translateY(8px) !important;
+                color: #F1B4BB;
+            }
+        }
+
+    }
+}    
+
+header {
+    .nav_clase {
+        background-color: #F1B4BB;
+        width: 100%;
+
+        a {
+            color: white;
+
+        }
+
+        .cinefilos {
+            color: #1b1b32;
+        }
+        a:not(.cinefilos) {
+            text-shadow: 2px 3px 6px rgba(0,0,0,0.7);
+        }
+    }
+}

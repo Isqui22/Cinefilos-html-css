@@ -1,0 +1,158 @@
+// INDEX
+@media screen and (max-width: 500px) {
+
+    main {
+        .texto_principal{
+            h2{
+                margin-top: 10px;
+                font-size: 20px;
+            }
+        } 
+        
+        .top_peliculas {
+            display: grid;
+            grid-template-columns: 1fr !important;
+            gap: 10px;
+            padding: 0px 10px;
+        }
+
+        .informacion {
+            margin-left: 20px ;
+            margin-right: 20px ;
+            font-size: 13px !important;
+
+            h2 {
+                font-size: 25px;
+            }
+        }
+
+        .botones {
+            margin-right: 36px;
+        }
+
+        .tit_series {
+            margin-bottom: 20px;
+        }
+        
+        .contact-links{
+            a, h3{
+            font-size: 16px !important;
+            }
+        } 
+    }   
+}
+
+// Actores
+@media screen and (min-width: 992px) {
+    
+    .container_actores {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
+    }
+
+    .act h1 {
+        font-size: 30px;
+        margin: 20px;
+    }
+    
+}
+
+// RECOMENDACIONES
+@media screen and (max-width: 500px) {
+    .container_reco div {
+        display: flex;
+        flex-flow: row wrap;
+        height: auto;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 25px;
+        gap: 25px;
+    }
+
+    section, iframe {
+        padding: 15px;
+    }
+}
+
+// SAGAS
+@media screen and (max-width: 500px) {
+    
+
+    #sagas {
+
+        .h1_sagas {
+            font-size: 20px;
+            margin-top: 70px;
+        }
+
+        .footer_hist {
+            margin-top: 0px !important;
+        }
+
+        .container_carousel {
+
+            gap: 20px;
+            
+            img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 2px;
+            }
+        }
+
+    }
+
+    .contact-links{    
+        a, h3{
+        font-size: 16px !important;
+        }
+    }  
+
+}
+
+// CONTACTO
+@media screen and (max-width: 500px) {
+
+    .footer_cont {
+        margin-top: 0px;
+    }
+
+    .h1_cont {
+        text-align: center;
+        margin-top: 70px;
+        font-size: 20px;
+    }
+
+    .div_fieldset {
+        margin-left: 20px;
+        gap: 15px;
+
+        fieldset {
+            font-size: 15px;
+
+            legend {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1320px) and (min-width: 501px){
+
+    .footer_cont {
+        margin-top: 240px;
+    }
+
+    .h1_cont {
+        text-align: center;
+        margin-top: 70px;
+        font-size: 20px;
+    }
+
+    .div_fieldset {
+        margin-left: 20px;
+        gap: 50px;
+    }
+}

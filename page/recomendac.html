@@ -2,11 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+    <!-- SEO y buenas prácticas -->
+    <meta name="description" content="En esta page vas a encontar algunas recomendaciones de grandes peliculas, segun la opinion del creador de la pagina.">
+    <meta name="keywords"    content="cine, peliculas, talento, actuacion, top, personaje, mundial, recomendaciones, actores, videos, clasicos">
+    <title>Cinéfilos - RECO</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    
+    <!--Animaciones-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Footer-->
     <script src="https://kit.fontawesome.com/4914ab581d.js" crossorigin="anonymous"></script>
 </head>
 
@@ -37,7 +45,7 @@
               <a class="nav-link" href="./sagas.html">Sagas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contacto.html">Contacto</a>
+              <a class="nav-link" href="./formulario.html">Formulario</a>
             </li>
           </ul>
         </div>
@@ -52,24 +60,24 @@
     <p class="p_reco">Siempre es buen momento para volver a ver un clasico</p>
 
     <div class="container_reco">
-      <div class="div_izq">
-        <section class="section_izq">
+      <div data-aos="flip-down" data-aos-duration="800">
+        <section>
           <p><strong class="tit_reco">Karate Kid</strong></p>
           <p>Daniel llega a Los Ángeles de la costa este y enfrenta la difícil tarea de hacer nuevos amigos. Sin embargo, se convierte en el blanco del acoso de los Cobras, una amenazadora pandilla de estudiantes de karate, cuando inicia una relación con Ali, la ex novia del líder de los Cobras. Deseoso de defenderse e impresionar a su nueva novia, pero temeroso de enfrentar a la peligrosa pandilla, Daniel le pide a su conserje Miyagi, un maestro de las artes marciales, que le enseñe karate.</p>
         </section>
         <iframe class="iframe_izq" width="560" height="315" src="https://www.youtube.com/embed/2cCEo-llFvg?si=bIxhOiYx4AqotvJu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
-      <div class="div_der">
-        <section class="section_der">
+      <div data-aos="flip-down" data-aos-duration="800">
+        <section>
           <p><strong class="tit_reco">Rocky</strong></p>
           <p>Rocky Balboa es un desconocido boxeador de Philadelphia a quien se le ofrece la posibilidad de alcanzar la fama y ganar el título mundial de los pesos pesados enfrentándose al actual campeón, Apollo Creed. Con una gran fuerza de voluntad, Rocky se prepara concienzudamente para el combate y también para los cambios que acabarán produciéndose en su vida.</p>
         </section>
         <iframe class="iframe_der" width="560" height="315" src="https://www.youtube.com/embed/_YYmfM2TfUA?si=TThLyojpG0Z8E4JM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
-      <div class="div_izq">
-        <section class="section_izq">
+      <div data-aos="flip-down" data-aos-duration="800">
+        <section>
           <p><strong class="tit_reco">En busca del destino</strong></p>
           <p>Esta es para hacerle un cuadrito </p>
           <p>Will tras descubrir su talento con las matemáticas, deberá decidir si seguir con su vida de siempre o aprovechar sus grandes cualidades intelectuales en alguna universidad. Sólo los consejos de un bohemio profesor le ayudarán a decidirse.</p>
@@ -100,6 +108,11 @@
     </div>
   </footer>
   
+  <!--AOS Animaciones-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
 
