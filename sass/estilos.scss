@@ -1,8 +1,8 @@
-// Importo los diferentes archivos
+// Generales
+@import "generales/headerFooter";
+@import "generales/variables";
 
-@import "generales/header";
-@import "generales/footer";
-
+// Páginas
 @import "pages/index";
 @import "pages/actores";
 @import "pages/recomendac";
@@ -11,3 +11,23 @@
 
 // Siempre el @import de mediaq es el último
 @import "generales/mediaq";
+
+/* Estilos Generales */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body:not(nav){
+    font-family: $font !important;
+    font-size: 15px ;
+    background-color: $azul !important;
+    color: $blanco !important;
+}
+
+h1{
+    font-size: 30px !important;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px !important;
+    text-align: center;
+}

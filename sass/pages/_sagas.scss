@@ -1,0 +1,31 @@
+#sagas {
+    margin: 10px;
+
+    .h1_sagas {
+        margin-top: 70px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .container_carousel {
+        @include flex (row wrap, center, center);
+        gap: 100px;
+
+        .sagas {
+            width: 700px;
+            height: auto;
+        }
+
+        img {
+            width: 100%;
+            max-width: 700px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 2px;
+        }
+    }
+}
+
+.footer_hist {
+    margin-top: 70px;
+}

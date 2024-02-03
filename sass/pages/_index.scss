@@ -1,65 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+main {
 
-body:not(nav){
-    font-family: 'Libre Baskerville', 'serif' !important;
-    font-size: 15px ;
-    background-color: #1b1b32 !important;
-    color: white !important;
-
-    main {
-
-        img {
-            width: 460px;
-        }
+    img {
+        width: 460px;
+    }
         
+    .botones {
+        margin-top: 80px;
+        margin-left: 42px;
+        margin-right: 15px;
+        align-content: center;
+    }
+
+    .texto_principal {
+        margin-bottom: 25px;
+        margin-top: 25px;
+        text-shadow: 2px 5px 6px rgba(0,0,0,1);
+        text-align: center;
+    }
+
+    .top_peliculas {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 25px;
+        padding: 0 60px;
+            
+        img {
+            width: 100%;
+            max-width: 500px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        strong {
+            color: $rosa;
+        }
+    }
+
+    .tit_series {
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .informacion {
+        margin-top: 25px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 25px;
+        text-align: center;
+        background-color: $amarillo;
+        color: $negro;
+
         .botones {
             margin-top: 80px;
             margin-left: 42px;
             margin-right: 15px;
             align-content: center;
         }
-        .texto_principal {
-            margin-bottom: 25px;
-            margin-top: 25px;
-            text-shadow: 2px 5px 6px rgba(0,0,0,1);
-            text-align: center;
-        }
-        .top_peliculas {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            gap: 25px;
-            padding: 0 60px;
-            img {
-                width: 100%;
-                max-width: 500px;
-                height: 300px;
-                object-fit: cover;
-                border-radius: 5px;
-            }
-            strong {
-                color: #F1B4BB;
-            }
-        }
-        .tit_series {
-            text-align: center;
-            margin-bottom: 25px;
-            margin-top: 25px;
-        }
-        .informacion {
-            margin-top: 25px;
-            margin-left: 100px;
-            margin-right: 100px;
-            margin-bottom: 25px;
-            text-align: center;
-            background-color: #F9EFDB;
-            color: black;
 
-            .botones {
-                margin-top: 80px;
-                margin-left: 42px;
-                margin-right: 15px;
-                align-content: center;
-            }
+        h2 {
+            font-size: 27px;
+        }
+        p {
+            font-size: 16px;
         }
     }
 }

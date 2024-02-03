@@ -1,121 +1,390 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
-body:not(nav) {
-  font-family: "Libre Baskerville", "serif" !important;
-  font-size: 15px;
-  background-color: #1b1b32 !important;
-  color: white !important;
-}
-body:not(nav) header .nav_clase {
-  background-color: #F1B4BB;
-  width: 100%;
-}
-body:not(nav) header .nav_clase a {
-  color: white;
-}
-body:not(nav) header .nav_clase a .cinefilos {
-  color: #1b1b32;
-}
-body:not(nav) header .nav_clase a:not(.cinefilos) {
-  text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.7);
-}
-
-body:not(nav) {
-  font-family: "Libre Baskerville", "serif" !important;
-  font-size: 15px;
-  background-color: #1b1b32 !important;
-  color: white !important;
-}
-body:not(nav) footer .contact-links {
+footer .contact-links {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
   margin-top: 2rem;
 }
-body:not(nav) footer .contact-links .hablemos {
+footer .contact-links .hablemos {
   color: #F1B4BB;
   padding-top: 15px;
   padding-right: 5px;
   font-size: 20px;
 }
-body:not(nav) footer .contact-links a {
+footer .contact-links a {
   color: #F1B4BB;
   text-decoration: none;
   padding: 10px;
   font-size: 20px;
   font-weight: 690;
 }
-body:not(nav) footer .contact-links a .btn {
+footer .contact-links a .btn {
   display: inline-block;
   padding: 1rem 2rem;
   border-radius: 2px;
 }
-body:not(nav) footer .contact-links a .button {
+footer .contact-links .button {
   transition: transform 0.3s ease-out !important;
 }
-body:not(nav) footer .contact-links a .button:hover {
-  transform: translateY(8px);
-  color: #F1B4BB !important;
+footer .contact-links .button:hover {
+  transform: translateY(8px) !important;
+  color: #F1B4BB;
 }
 
-body:not(nav) {
-  font-family: "Libre Baskerville", "serif" !important;
-  font-size: 15px;
-  background-color: #1b1b32 !important;
-  color: white !important;
+header .nav_clase {
+  background-color: #F1B4BB;
+  width: 100%;
 }
-body:not(nav) main img {
+header .nav_clase a {
+  color: white;
+}
+header .nav_clase .cinefilos {
+  color: #1b1b32;
+}
+header .nav_clase a:not(.cinefilos) {
+  text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+main img {
   width: 460px;
 }
-body:not(nav) main .botones {
+main .botones {
   margin-top: 80px;
   margin-left: 42px;
   margin-right: 15px;
   align-content: center;
 }
-body:not(nav) main .texto_principal {
+main .texto_principal {
   margin-bottom: 25px;
   margin-top: 25px;
   text-shadow: 2px 5px 6px rgb(0, 0, 0);
   text-align: center;
 }
-body:not(nav) main .top_peliculas {
+main .top_peliculas {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 25px;
   padding: 0 60px;
 }
-body:not(nav) main .top_peliculas img {
+main .top_peliculas img {
   width: 100%;
   max-width: 500px;
   height: 300px;
   object-fit: cover;
   border-radius: 5px;
 }
-body:not(nav) main .top_peliculas strong {
+main .top_peliculas strong {
   color: #F1B4BB;
 }
-body:not(nav) main .tit_series {
+main .tit_series {
   text-align: center;
   margin-bottom: 25px;
   margin-top: 25px;
 }
-body:not(nav) main .informacion {
+main .informacion {
   margin-top: 25px;
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 25px;
   text-align: center;
   background-color: #F9EFDB;
-  color: black;
+  color: #000;
 }
-body:not(nav) main .informacion .botones {
+main .informacion .botones {
   margin-top: 80px;
   margin-left: 42px;
   margin-right: 15px;
   align-content: center;
+}
+main .informacion h2 {
+  font-size: 27px;
+}
+main .informacion p {
+  font-size: 16px;
+}
+
+.act {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.act div {
+  margin-bottom: 30px;
+}
+.act div img {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.h1_reco {
+  padding-top: 85px;
+  margin-left: 20px;
+}
+
+.p_reco {
+  margin-left: 22px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.container_reco {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container_reco div {
+  color: #000;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-bottom: 35px;
+  padding-top: 15px;
+  background-color: #F9EFDB;
+  display: grid;
+  grid-template-areas: "section iframe" "section iframe";
+  grid-template-columns: 40% 60%;
+  gap: 100px;
+  height: 350px;
+}
+.container_reco section {
+  padding: 25px;
+}
+
+#sagas {
+  margin: 10px;
+}
+#sagas .h1_sagas {
+  margin-top: 70px;
+  padding: 20px;
+  text-align: center;
+}
+#sagas .container_carousel {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+#sagas .container_carousel .sagas {
+  width: 700px;
+  height: auto;
+}
+#sagas .container_carousel img {
+  width: 100%;
+  max-width: 700px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.footer_hist {
+  margin-top: 70px;
+}
+
+.h1_cont {
+  margin-top: 85px;
+}
+
+.h2_cont {
+  font-size: 20px;
+}
+
+.div_fieldset {
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 200px;
+  align-items: center;
+  justify-content: center;
+}
+.div_fieldset fieldset {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  border-color: #F9EFDB;
+}
+.div_fieldset #bio {
+  font-size: 14px;
+}
+.div_fieldset #nombre, .div_fieldset #apellido, .div_fieldset #email {
+  height: 30px;
+  padding-left: 5px;
+  font-size: 14px;
+}
+.div_fieldset .div_2 {
+  margin-right: 25px;
+}
+.div_fieldset .div_2 .preg_1 {
+  padding-bottom: 20px;
+}
+.div_fieldset input, .div_fieldset textarea {
+  background-color: #F9EFDB;
+}
+.div_fieldset label {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem 0;
+  padding-right: 5px;
+}
+.div_fieldset label input {
+  padding-left: 1%;
+}
+.div_fieldset fieldset legend {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.div_fieldset input[name=opciones] {
+  padding-left: 50px;
+}
+
+input[type=submit] {
+  color: #000;
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 19px;
+  background-color: #F9EFDB;
+  border-color: #F9EFDB;
+  min-width: 300px;
+}
+
+.footer_cont {
+  margin-top: 260px;
+}
+
+@media screen and (max-width: 500px) {
+  main .texto_principal h2 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  main .top_peliculas {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 10px;
+    padding: 0px 10px;
+  }
+  main .informacion {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 13px !important;
+  }
+  main .informacion h2 {
+    font-size: 25px;
+  }
+  main .botones {
+    margin-right: 36px;
+  }
+  main .tit_series {
+    margin-bottom: 20px;
+  }
+  main .contact-links a, main .contact-links h3 {
+    font-size: 16px !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container_actores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  }
+  .act h1 {
+    font-size: 30px;
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container_reco div {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 25px;
+    gap: 25px;
+  }
+  section, iframe {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #sagas .h1_sagas {
+    font-size: 20px;
+    margin-top: 70px;
+  }
+  #sagas .footer_hist {
+    margin-top: 0px !important;
+  }
+  #sagas .container_carousel {
+    gap: 20px;
+  }
+  #sagas .container_carousel img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 2px;
+  }
+  .contact-links a, .contact-links h3 {
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer_cont {
+    margin-top: 0px;
+  }
+  .h1_cont {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+  }
+  .div_fieldset {
+    margin-left: 20px;
+    gap: 15px;
+  }
+  .div_fieldset fieldset {
+    font-size: 15px;
+  }
+  .div_fieldset fieldset legend {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1320px) and (min-width: 501px) {
+  .footer_cont {
+    margin-top: 240px;
+  }
+  .h1_cont {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+  }
+  .div_fieldset {
+    margin-left: 20px;
+    gap: 50px;
+  }
+}
+/* Estilos Generales */
+body:not(nav) {
+  font-family: "Libre Baskerville", serif !important;
+  font-size: 15px;
+  background-color: #1b1b32 !important;
+  color: #fff !important;
+}
+
+h1 {
+  font-size: 30px !important;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px !important;
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */
