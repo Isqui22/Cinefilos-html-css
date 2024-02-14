@@ -1,8 +1,7 @@
 .act {
     margin-top: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
+    display: grid;
+    place-items: center;
 
     div {
         margin-bottom: 30px;
@@ -14,5 +13,13 @@
         height: 300px;
         object-fit: cover;
         border-radius: 5px;
+    }
+
+    .card {
+        background-color: $amarillo;
+    }
+
+    .list-group-item {
+        background-color: $amarillo;
     }
 }

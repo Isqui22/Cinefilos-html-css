@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 footer .contact-links {
   display: flex;
@@ -63,6 +64,7 @@ main .texto_principal {
 }
 main .top_peliculas {
   display: grid;
+  place-content: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 25px;
   padding: 0 60px;
@@ -106,9 +108,8 @@ main .informacion p {
 
 .act {
   margin-top: 70px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  place-items: center;
 }
 .act div {
   margin-bottom: 30px;
@@ -119,6 +120,12 @@ main .informacion p {
   height: 300px;
   object-fit: cover;
   border-radius: 5px;
+}
+.act .card {
+  background-color: #F9EFDB;
+}
+.act .list-group-item {
+  background-color: #F9EFDB;
 }
 
 .h1_reco {
@@ -260,6 +267,29 @@ input[type=submit] {
   margin-top: 260px;
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
+  .top_peliculas {
+    grid-template-columns: 1fr 1fr 1fr !important;
+    gap: 10px;
+    padding: 0px 10px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  .top_peliculas {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px;
+    padding: 0px 10px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  main .top_peliculas {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr !important;
+    gap: 10px;
+    padding: 0px 10px;
+  }
+}
 @media screen and (max-width: 500px) {
   main .texto_principal h2 {
     margin-top: 10px;
@@ -289,29 +319,113 @@ input[type=submit] {
     font-size: 16px !important;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1000px) {
   .container_actores {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px;
+    gap: 70px;
   }
   .act h1 {
     font-size: 30px;
     margin: 20px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  .container_actores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+  .act h1 {
+    font-size: 25px !important;
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container_actores {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .act h1 {
+    font-size: 23px !important;
+    margin: 10px;
+  }
+  .contact-links {
+    margin-top: 0rem !important;
+  }
+}
+@media screen and (min-width: 1530px) and (max-width: 1630px) {
+  .container_reco div {
+    margin-right: 200px !important;
+    margin-left: 200px;
+  }
+}
+@media screen and (min-width: 1330px) and (max-width: 1530px) {
+  .container_reco div {
+    margin-right: 100px !important;
+    margin-left: 100px;
+  }
+}
+@media screen and (min-width: 1110px) and (max-width: 1330px) {
+  .container_reco div {
+    margin-right: 0px !important;
+    margin-left: 0px;
+  }
+  .container_reco iframe {
+    width: "460";
+    height: "215";
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1110px) {
+  .container_reco {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centrar horizontalmente */
+    text-align: center; /* Centrar texto */
+  }
+  .container_reco div {
+    margin-bottom: 25px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+    height: auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+  }
+  .container_reco iframe {
+    width: 90%; /* Haz que el iframe ocupe todo el ancho del contenedor */
+    max-width: 560px; /* Ancho máximo del video */
+    height: 315px; /* Altura del video */
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container_reco {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centrar horizontalmente */
+    text-align: center; /* Centrar texto */
+  }
   .container_reco div {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
+    align-items: center;
     height: auto;
     width: 100%;
     margin: 0;
     margin-bottom: 25px;
-    gap: 25px;
+    gap: 0px;
   }
-  section, iframe {
-    padding: 15px;
+  .container_reco div section, .container_reco div iframe {
+    padding: 25px;
+  }
+  .container_reco div iframe {
+    max-width: 460px; /* Ancho máximo del video */
+    height: 300px; /* Altura del video */
   }
 }
 @media screen and (max-width: 500px) {
