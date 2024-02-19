@@ -128,13 +128,11 @@ main .informacion p {
 }
 
 .h1_reco {
-  padding-top: 85px;
-  margin-left: 20px;
+  padding-top: 75px;
+  margin: 10px;
 }
 
 .p_reco {
-  margin-left: 22px;
-  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -301,7 +299,9 @@ input[name=opciones] {
   main .informacion {
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 13px !important;
+  }
+  main .informacion p {
+    font-size: 14px !important;
   }
   main .informacion h2 {
     font-size: 25px;
@@ -311,6 +311,9 @@ input[name=opciones] {
   }
   main .tit_series {
     margin-bottom: 20px;
+  }
+  main h1 {
+    font-size: 25px !important;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -331,7 +334,6 @@ input[name=opciones] {
     gap: 50px;
   }
   .act h1 {
-    font-size: 25px !important;
     margin: 15px;
   }
 }
@@ -342,7 +344,7 @@ input[name=opciones] {
     gap: 0px;
   }
   .act h1 {
-    font-size: 23px !important;
+    font-size: 25px !important;
     margin: 10px;
   }
   .contact-links {
@@ -363,7 +365,7 @@ input[name=opciones] {
 }
 @media screen and (min-width: 1110px) and (max-width: 1330px) {
   .container_reco div {
-    margin-right: 0px !important;
+    margin-right: 0px;
     margin-left: 0px;
   }
   .container_reco iframe {
@@ -375,8 +377,8 @@ input[name=opciones] {
   .container_reco {
     display: flex;
     flex-direction: row;
-    align-items: center; /* Centrar horizontalmente */
-    text-align: center; /* Centrar texto */
+    align-items: center;
+    text-align: center;
   }
   .container_reco div {
     margin-bottom: 25px;
@@ -391,18 +393,24 @@ input[name=opciones] {
     margin-bottom: 25px;
   }
   .container_reco iframe {
-    width: 100%; /* Haz que el iframe ocupe todo el ancho del contenedor */
-    max-width: 560px; /* Ancho máximo del video */
-    height: 315px; /* Altura del video */
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
     margin-bottom: 15px;
   }
 }
 @media screen and (max-width: 780px) {
+  .h1_reco {
+    font-size: 25px !important;
+  }
+  p {
+    font-size: 14px;
+  }
   .container_reco {
     display: flex;
     flex-direction: row;
-    align-items: center; /* Centrar horizontalmente */
-    text-align: center; /* Centrar texto */
+    align-items: center;
+    text-align: center;
   }
   .container_reco div {
     display: flex;
@@ -427,7 +435,7 @@ input[name=opciones] {
 }
 @media screen and (max-width: 500px) {
   #sagas .h1_sagas {
-    font-size: 20px;
+    font-size: 25px !important;
     margin-top: 70px;
   }
   #sagas .container_carousel {
@@ -450,7 +458,10 @@ input[name=opciones] {
   .h1_cont {
     text-align: center;
     margin-top: 70px;
-    font-size: 20px;
+  }
+  .h2_cont {
+    font-size: 16px !important;
+    padding: 5px;
   }
   .div_fieldset {
     margin: 0px;
@@ -465,8 +476,8 @@ input[name=opciones] {
     align-items: left;
   }
   .div_fieldset fieldset textarea, .div_fieldset fieldset input {
-    width: 170px; /* Anchura de 300 píxeles */
-    height: 50px; /* Altura de 200 píxeles */
+    width: 170px;
+    height: 50px;
     padding: 2px;
   }
   .div_fieldset fieldset label {

@@ -1,18 +1,15 @@
 .h1_reco {
-    padding-top: 85px;
-    margin-left: 20px;
+    padding-top: 75px ;
+    margin: 10px;
 }
 
 .p_reco {
-    margin-left: 22px;
-    margin-bottom: 30px;
     text-align: center;
-
 }
 
 .container_reco {
     @include flex (row wrap, center, center);
-
+    
     div {
         color: $negro;
         margin-right: 300px;
