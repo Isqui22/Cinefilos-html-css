@@ -1,6 +1,6 @@
 Sitio web responsive desarrollado a lo largo del cuso CoderHose con SASS, CSS y HTML. Además previo a la realización del sitio se realizo un Wireframe con su diseño.
 
-##Sitio Web Responsive
+## Sitio Web Responsive
 
 Proyecto: Cinéfilos
 
