@@ -6,7 +6,7 @@ Puedes acceder al sitio en el siguiente enlace: [Cinéfilos](https://isqui22.git
 
 ### Propósito
 
-El propósito de este proyecto es desarrollar una página web responsive dedicada al mundo del cine, diseñada para ser dinámica, intuitiva y entretenida. El proyecto aprovecha al máximo las posibilidades de HTML y CSS, incorporando una amplia variedad de herramientas, estilos y diseños para ofrecer una experiencia atractiva y profesional. Previo al codigo se desarrollaron Wireframes para 
+El propósito de este proyecto es desarrollar una página web responsive dedicada al mundo del cine, diseñada para ser dinámica, intuitiva y entretenida. El proyecto aprovecha al máximo las posibilidades de HTML y CSS, incorporando una amplia variedad de herramientas, estilos y diseños para ofrecer una experiencia atractiva y profesional. Previo al codigo se desarrollaron Wireframes para un mejor diseño.
 
 ### Tecnologías utilizadas
 
