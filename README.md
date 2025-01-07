@@ -10,13 +10,13 @@ Acceso al Sitio
 
 Puedes acceder al sitio en el siguiente enlace: Cinéfilos
 
-##Detalles del Proyecto
+## Detalles del Proyecto
 
-#Propósito
+# Propósito
 
-Crear una página de documentación técnica en español para mejorar las habilidades de desarrollo web utilizando HTML y CSS.
+El propósito de este proyecto es desarrollar una página web responsive dedicada al mundo del cine, diseñada para ser dinámica, intuitiva y entretenida. El proyecto aprovecha al máximo las posibilidades de HTML y CSS, incorporando una amplia variedad de herramientas, estilos y diseños para ofrecer una experiencia atractiva y profesional.
 
-#Tecnologías utilizadas
+# Tecnologías utilizadas
 
 SASS
 
@@ -24,6 +24,6 @@ HTML
 
 CSS
 
-#Plataforma educativa
+# Plataforma educativa
 
 CoderHouse
