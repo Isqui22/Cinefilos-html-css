@@ -1,6 +1,6 @@
 ## Sitio Web Responsive
 
-Puedes acceder al sitio en el siguiente enlace: [Cinéfilos](https://isqui22.github.io/Documentacion-html-css/)
+Puedes acceder al sitio en el siguiente enlace: [Cinéfilos](https://isqui22.github.io/Cinefilos-html-css/)
 
 ## Detalles del Proyecto
 
